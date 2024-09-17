@@ -27,7 +27,7 @@ public class Rectangle {
 
     // Metod beräkna omkrets
     public double calcPerimeter() {
-        return width + height;
+        return 2 * (width + height);
     }
 
     // Metod set x/y
